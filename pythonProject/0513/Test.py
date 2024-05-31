@@ -25,7 +25,7 @@ n = int(input())
 for i in range(2, n):
     if n%i==0:
         print("소수가 아닙니다.")
-        break;
+        break
     elif i == n-1:
         print("소수입니다.")
 
